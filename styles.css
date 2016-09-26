@@ -27,8 +27,13 @@ h1, .menu{
 	list-style: none;
 	float: left;
 	padding-left: 25px;
-	padding-right: 110px;
+	padding-right: 110px;ß
+	-webkit-transition: all 300ms;
 
+}
+
+.logo,a:hover{
+	color: #fff;
 }
 
 .menu{
@@ -88,6 +93,24 @@ body{
 	margin-left: 0px;
 
 }
+
+
+
+.main-para:first-letter {
+	float: left;
+	font-size: 6em;
+	line-height: 1;
+	color: #DDD;
+	margin: -.1em .1em 0 -.1em;
+}
+
+
+
+
+
+
+
+
 .image1{
 	background-image: url("blog_photo1.jpg");
 	height: 300px;
