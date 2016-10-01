@@ -1,0 +1,20 @@
+Use floats or inline-block in your CSS to achieve a two-column layout
+ - Good!
+Use the correct Open Sans Google Font typeface to style the text denoted in the design file and according to the JPEG provided
+ - Good!
+Use proper filename conventions (lowercase, .html)
+ - Good!
+Use an external CSS stylesheet to style your page
+ - Good!
+Make sure that all images are no wider than their containers
+ - Good!
+Add a hover effect to all the links using pseudo-classes
+ - I see you have a rule for this, but it's not quite working. See additonal comments.
+Integrate drop caps using pseudo-classes
+ - Good!
+
+Additional Comments:
+
+- Great job! You're really getting the hang of this. Good attention to detail in terms of spacing, sizes, and colors. Your HTML is well formatted and your css class & ID names are consistant and descriptive.
+
+- Your a:hover pseudo class style isn't working because later in your CSS you have a rule for ".more-link a" that overrides it with the color #033048. The ".more-link" class provides the same level of specificity as the :hover pseudo class, and since it comes later in the CSS it wins out. Try entering "a:hover" and ".more-link a" into the CSS Specificity Calculator to see what I mean (https://specificity.keegan.st/). To solve this problem you should put your <a> pseudo class styles AFTER other <a> styles.
